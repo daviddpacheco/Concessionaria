@@ -1,3 +1,4 @@
+@import url();
 header, footer {
   display: flex;
   align-items: center;
@@ -15,12 +16,12 @@ body {
   font-family: Arial, sans-serif;
 }
 
-section {
+div {
   display: inline-block;
-  width: 30%;
-  margin: 20px;
-  text-align: left;
-  padding: 20px;
-  border: 1px solid #ddd;
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 22px solid #ddd;
   border-radius: 5px;
 }/*# sourceMappingURL=formatacao.css.map */

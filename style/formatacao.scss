@@ -1,6 +1,6 @@
 @import "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css";
-
-// Cores
+$cor-de-fundo-navbar: #333;
+$cor-texto-navbar: #fff;
 $cor-de-fundo: #000000;
 $cor-borda: #ccc;
 $cor-texto: #333;
@@ -24,13 +24,11 @@ $cor-fundo-especial: #ffc107;
     margin: 10px 0;
 }
 
-
 header {
     background-color: $cor-de-fundo;
     color: $cor-texto;
     padding: 20px;
 }
-
 
 header h1 {
     font-size: 24px;
@@ -48,18 +46,24 @@ footer h1 {
     margin: 0;
 }
 
-.vendas-container,
-.oficina-container,
-.funilaria-container {
-    background-color: $cor-de-fundo;
-    border: 1px solid $cor-borda;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+.carousel {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
-.carousel {
-    max-width: 600px; 
-    margin: 0 auto; 
-    padding: 10px; 
+.navbar {
+    background-color: $cor-de-fundo-navbar;
+}
+
+.navbar-nav .nav-link {
+    color: $cor-texto-navbar;
+}
+
+.navbar-toggler-icon {
+    background-color: $cor-texto-navbar;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    background-color: $cor-texto-navbar;
 }
